@@ -18,13 +18,9 @@ body {
 h3,h2{
     color: #124824;;
 }
-#slideback{
-    /* z-index: 40;
-     */
-     opacity: 5px;
-}
+
 .headtag{
-    font-size: 10vmin;
+    /* font-size: 10vmin; */
   font-weight: 900;
   color:  #deb009;
 }
