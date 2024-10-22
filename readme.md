@@ -1,6 +1,6 @@
 Hello,
 
-thank you for purchusing SOLID STATE PROPERTIES Template. 
+thank you for purchusing SOLID ROOTS PROPERTIES Template. 
  
 
 
