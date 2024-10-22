@@ -15,11 +15,44 @@ body {
     position: relative;
 }
 /* My  added css ------------------------------------ */
+#footer-image{
+    background-image: url(/assets/img/solidroots\ properties\ logo\ c3-1.png);
+    
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+#header-image{
+    background-image: url(/assets/img/solidroots\ properties\ logo\ c3-1.png);
+    
+    /* make a square container */
+    width: 120px;
+    height: 120px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
 
 #button-68 {
   appearance: none;
   backface-visibility: hidden;
-  background-color: #27ae60;
+  background-color: #124824;
   border-radius: 8px;
   border-style: none;
   box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
