@@ -15,6 +15,18 @@ body {
     position: relative;
 }
 /* ------------------------------------My  added css ------------------------------------------- */
+.headtag{
+    font-size: 10vmin;
+  font-weight: 900;
+  color:  #deb009;
+}
+.taglinee{
+    font-size: 1vmin;
+  /* font-weight: 700; */
+  font-size: 20px;
+  line-height: 19px;
+  
+}
 #footer-image{
     background-image: url(/assets/img/solidroots\ properties\ logo\ c3-1.png);
     
@@ -152,7 +164,7 @@ p {
     margin:0;
 }
 a {
-    color: #d27e04;
+    color:  #124824;
     outline: 0;
     font-weight: bold;
     -webkit-transition: all .8s ease;
@@ -286,8 +298,8 @@ input[type="search"]::-webkit-search-decoration {
     border-color: #05AE0E;
 }
 .btn-warning{
-    color: #FDC600;
-    border-color: #FDC600;
+    color: #124824;
+    border-color: #124824;
 }
 .btn-danger{
     color: #FF3B30;
@@ -356,7 +368,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 .btn-warning.disabled, .btn-warning[disabled], fieldset[disabled] .btn-warning, .btn-warning.disabled:hover, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning:hover, .btn-warning.disabled:focus, .btn-warning[disabled]:focus, fieldset[disabled] .btn-warning:focus, .btn-warning.disabled:active, .btn-warning[disabled]:active, fieldset[disabled] .btn-warning:active, .btn-warning.disabled.active, .btn-warning.active[disabled], fieldset[disabled] .btn-warning.active {
     background-color: rgba(0, 0, 0, 0);
-    border-color: #FDC600;
+    border-color: #124824;
 }
 .input-group-addon {
     background-color: #FFFFFF;
@@ -365,14 +377,14 @@ input[type="search"]::-webkit-search-decoration {
 }
 .btn-primary {
     color: #FFF;
-    background-color: #FDC600;
-    border-color: #FDC600;
+    background-color: #124824;
+    border-color: #124824;
     border-radius: 1px;
     padding: 10px 20px;
     font-weight: 600;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,.btn-primary:active:focus, .open > .dropdown-toggle.btn-primary {
-    color: #FDC600;
+    color: #124824;
     background-color: #313538;
     border-color: #282829;
     font-weight: 600;
@@ -380,15 +392,15 @@ input[type="search"]::-webkit-search-decoration {
 .btn-default {
     border-radius: 1px;
     padding: 10px 20px;
-    border: 1px solid #FDC600;
+    border: 1px solid #124824;
     color: #000;
-    background-color: #FDC600;
+    background-color: #124824;
     border-color: #F0F0F0;
     font-weight: 600;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
     color: #000;
-    background-color: #FDC600;
+    background-color: #124824;
     border-color: #F0F0F0;
     font-weight: 600;
 }
@@ -430,7 +442,7 @@ input[type="search"]::-webkit-search-decoration {
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 .form-inline input[type=submit]{
-    background: #FDC600;
+    background: #124824;
     color: #fff;
     height: 40px;
     width: 90px;
@@ -521,7 +533,7 @@ input[type="search"]::-webkit-search-decoration {
     border-left: 0 none;
 }
 .search-btn ,.toggle-btn{
-    background-color: #FDC600;
+    background-color: #124824;
     color: #333;
     font-size: 16px;
     border: 1px solid #EAE9E9;
@@ -580,8 +592,8 @@ input[type="search"]::-webkit-search-decoration {
     color: #05AE0E;
 }
 .label-warning{
-    border-color: #FDC600;
-    color: #FDC600;
+    border-color: #124824;
+    color: #124824;
 }
 .label-danger{
     border-color: #FF3B30;
@@ -611,7 +623,7 @@ label small{
     background-color: #05AE0E;
 }
 .label-warning.label-fill, .progress-bar-warning{
-    background-color: #FDC600;
+    background-color: #124824;
 }
 .label-danger.label-fill, .progress-bar-danger{
     background-color: #FF3B30;
@@ -694,7 +706,7 @@ label small{
 .pagination.ct-orange > .active > a, .pagination.ct-orange > .active > span, .pagination.ct-orange > .active > a:hover,
 
 .pagination.ct-orange > .active > span:hover, .pagination.ct-orange > .active > a:focus, .pagination.ct-orange > .active > span:focus{
-    background-color: #FDC600;
+    background-color: #124824;
 }
 .nav-pills.ct-red > li.active > a, .nav-pills.ct-red > li.active > a:hover, .nav-pills.ct-red > li.active > a:focus,
 .pagination.ct-red > .active > a, .pagination.ct-red > .active > span, .pagination.ct-red > .active > a:hover,
@@ -714,8 +726,8 @@ label small{
     color: #05AE0E;
 }
 .nav-pills.ct-orange > li > a {
-    border: 1px solid #FDC600;
-    color: #FDC600;
+    border: 1px solid #124824;
+    color: #124824;
 }
 .nav-pills.ct-red > li > a {
     border: 1px solid #FF3B30;
@@ -790,7 +802,7 @@ label small{
 
 .navbar-default .navbar-nav > li > a.active:after{
 
-    background-color: #FDC600;
+    background-color: #124824;
     bottom: -24px;
     content: "";
     height: 5px;
@@ -800,7 +812,7 @@ label small{
     width: 100%;
 }
 .navbar-default .navbar-nav > li > a::after {
-    background-color: #FDC600;
+    background-color: #124824;
     bottom: -24px;
     content: "";
     height: 5px;
@@ -838,11 +850,11 @@ label small{
     transition: all 0.4s ease;
 }
 .nav-button.login{
-    background-color: #FDC600;
+    background-color: #124824;
     margin-right: 5px;
 }
 .nav-button:hover{
-    background-color: #FDC600;
+    background-color: #124824;
 
 }
 .navbar{
@@ -874,7 +886,7 @@ label small{
     border-width: 4px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    border-color: transparent transparent #FDC600;
+    border-color: transparent transparent #124824;
     border-style: solid;
     border-width: 4px;
     color: #666666;
@@ -976,7 +988,7 @@ label small{
     font-weight: 300;
 }
 .navbar .yamm-content ul li a:hover {
-    color: #FDC600;
+    color: #124824;
     text-decoration: none;
 }
 .navbar .yamm-content .banner {
@@ -1162,7 +1174,7 @@ font-weight: 500;
 
 }
 .header-social ul li a:hover{
-    color: #FDC600
+    color: #124824
 }
 
 
@@ -1206,7 +1218,7 @@ page-header
     text-align: right;
 }
 .search-widget fieldset .largesearch-btn{
-    background-color: #FDC600;
+    background-color: #124824;
     font-size: 16px;
     border: 1px solid #EAE9E9;
     width: 100%;
@@ -1261,7 +1273,7 @@ Asside widgets CSS
 .panel.sidebar-menu .panel-heading h4,
 .panel.sidebar-menu .panel-heading h5 {
     display: inline-block;
-    border-bottom: solid 3px #FDC600;
+    border-bottom: solid 3px #124824;
     line-height: 1.1;
     margin-bottom: 0;
     padding-bottom: 10px;
@@ -1357,7 +1369,7 @@ Asside widgets CSS
     padding: 5px;
     border: solid 1px #eeeeee;
     border-radius: 0;
-    color: #FDC600;
+    color: #124824;
     margin: 5px 5px 5px 0;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -1365,9 +1377,9 @@ Asside widgets CSS
     font-size: 13px;
 }
 .panel.sidebar-menu ul.tag-cloud li a:hover {
-    color: #FDC600;
+    color: #124824;
     text-decoration: none;
-    border-color: #FDC600;
+    border-color: #124824;
 }
 .panel.sidebar-menu ul.popular,
 .panel.sidebar-menu ul.recent {
@@ -1606,7 +1618,7 @@ Asside widgets CSS
     border-radius: 50%;
 }
 .testimonial .owl-theme .owl-controls .owl-page span{
-    background: #FDC600
+    background: #124824
 }
 .client-text {
     border-radius: 2px;
@@ -1804,7 +1816,7 @@ proerty-th
 }
 .properties-page .proerty-th .proerty-price{
     font-weight: 600;
-    color: #FDC600;
+    color: #124824;
 }
 .proerty-th .proerty-item  .item-entry h5{
     text-transform: uppercase;
@@ -1914,7 +1926,7 @@ proerty-th-list
 
 .proerty-th-list .proerty-price{
     font-weight: 600;
-    color: #FDC600;
+    color: #124824;
     font-size: 25px;
 }
 .property-icon {
@@ -2007,7 +2019,7 @@ recent-property-widget
     padding: 0px 6px;
 }
 .recent-property-widget ul li .property-seeker .b-2 {
-    background-color: #FDC600;
+    background-color: #124824;
     padding: 0px 6px;
 }
 
@@ -2072,7 +2084,7 @@ single property page
 }
 .favorite-and-print .add-to-fav:hover  ,.favorite-and-print  .printer-icon:hover  {
     color:#FDC600;
-    border-color: #FDC600;
+    border-color: #124824;
 }
 .favorite-and-print .add-to-fav i ,.favorite-and-print  .printer-icon i  { 
     font-size: 25px;
@@ -2232,7 +2244,7 @@ single property page
 }
 .property-features ul li a::after{
     content: "/";
-    color: #FDC600;
+    color: #124824;
     font-weight: bold;
     padding-left: 5px;
     font-size: 14px;
@@ -2293,7 +2305,7 @@ single property page
 }
 .dealer-action a::after{
     content: "/";
-    color: #FDC600;
+    color: #124824;
     font-weight: 700;
     font-size: 20px;
     margin: 4px;
@@ -2328,7 +2340,7 @@ Welcom
 .welcome-estate:hover .welcome-icon{
     color:#FFF;
     border: 2px solid transparent;
-    background-color: #FDC600;
+    background-color: #124824;
 }
 
 .welcome_text{
@@ -2430,8 +2442,8 @@ count-area
     padding: 2px 15px;
     text-transform: uppercase;
     margin: 0px;
-    border-left: 2px solid #FDC600;
-    border-right: 2px solid #FDC600;
+    border-left: 2px solid #124824;
+    border-right: 2px solid #124824;
     display: inline-block;
 }
 .boy-sale-area {
@@ -2522,7 +2534,7 @@ count-area
     padding-top:35%; 
 }
 .box-tree .item-tree-icon i:hover{
-    color: #D27E04;  
+    color:  #124824;  
 }
 .box-for{
     padding: 10px 0px;
@@ -2571,12 +2583,12 @@ count-area
     letter-spacing: 0.5px;
 }
 .slider-selection { 
-    background: #FDC600;
+    background: #124824;
 }
 .search-form .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     color: #FFF;
     text-decoration: none;
-    background-color: #FDC600;
+    background-color: #124824;
     outline: 0px none;
 }
 .search-form .dropdown-menu > li > a {
@@ -2702,7 +2714,7 @@ padding-bottom: 15px;
     text-transform: uppercase;
     margin-bottom: 15px;
     background: transparent none repeat scroll 0% 0%;
-    border-bottom: 2px solid #FDC600;
+    border-bottom: 2px solid #124824;
     font-size: 20px;
     line-height: 30px;
 }
@@ -2717,7 +2729,7 @@ padding-bottom: 15px;
     font-size: 23px;
 }
 .login-social:hover, .login-social:focus{
-    background-color: #FDC600;
+    background-color: #124824;
 }
 
 
@@ -2770,7 +2782,7 @@ padding-bottom: 15px;
 }
 .error-page .error-title{
     font-size: 11em;
-    color: #FDC600;
+    color: #124824;
 }
 
 .fqa-title::before {
@@ -2779,7 +2791,7 @@ padding-bottom: 15px;
     width: 24px;
     height: 24px;
     content: "";
-    color: #FDC600;
+    color: #124824;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -2923,12 +2935,12 @@ padding-top: 7px;
     letter-spacing: 2px;
 }
 .footer h4 span{
-    border-bottom: 3px solid #FDC600;
+    border-bottom: 3px solid #124824;
 }
 .footer-title-line {
     width: 100px;
     height: 2px;
-    background: #FFA600;
+    background:  #124824;
     margin: 0px 0px 33px;
     position: relative;
     top: -2px;
@@ -2962,7 +2974,7 @@ text-transform: uppercase;
 font-size: 13px;
 }
 .footer ul li a:hover{
-    color: #FDC600;
+    color: #124824;
     text-decoration: none;
 }
 .footer-menu li{
@@ -2994,7 +3006,7 @@ ul.footer-blog li {
     font-size: 13px;
     text-transform: capitalize;
     font-weight: 600; 
-    color: #FFA600;
+    color:  #124824;
 }
 .footer-blog .blg-entry h6 {
     padding: 2px 0px;
@@ -3041,8 +3053,8 @@ ul.footer-blog li {
     font-size: 14px;
     margin-left: -17px;
     z-index: 99;
-    background-color: #FFA600;
-    border-color: #FFA600;
+    background-color:  #124824;
+    border-color:  #124824;
 }
 .footer .subscribe:hover{
     background-color: #2D2D2D;
@@ -3059,12 +3071,12 @@ ul.footer-blog li {
     padding-bottom: 0.3em;
 }
 .social  ul li a:hover {
-    color: #FDC600;
+    color: #124824;
 order-color: #868686;
 background-color: #868686;
 }
 .social  ul li a:hover i{
-   color: #FDC600;  
+   color: #124824;  
 }
 .social ul li a{
 display: block;
