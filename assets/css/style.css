@@ -263,6 +263,7 @@ h2 {
   letter-spacing: 0.2rem;
   /* font-family: sans-serif; */
   font-weight: normal;
+  text-decoration: none;
 }
 /* ------------------------------------------------------------------- 
    * ## mobile menu toggle
