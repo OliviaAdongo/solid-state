@@ -20,6 +20,7 @@ h2 {
 /*search box css start here*/
 .search-sec{
     padding: 2rem;
+    margin-top: 10px;
 }
 .search-slt{
     display: block;
@@ -201,7 +202,6 @@ h2 {
   letter-spacing: 0.2rem;
   /* font-family: sans-serif; */
   font-weight: normal;
-  /* border-bottom: 1px solid  #fff; */
 }
 /* ------------------------------------------------------------------- 
    * ## mobile menu toggle
