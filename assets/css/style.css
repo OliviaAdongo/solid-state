@@ -7,10 +7,8 @@ body {
   height: 100%;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-
   font-size: 14px;
   line-height: 28px;
-  color: #777;
   background: #000;
   /* position: relative; */
 }
@@ -18,6 +16,43 @@ body {
 h3,
 h2 {
   color: #124824;
+}
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
 }
 
 .headtag {
@@ -77,9 +112,8 @@ h2 {
 }
 
 .s-header.sticky .header-nav a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255,255,255);
 }
-
 .s-header.sticky.scrolling {
   opacity: 1;
   visibility: visible;
@@ -136,11 +170,12 @@ h2 {
   line-height: 6rem;
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
-  margin: 0;
+  margin-left: 15px;
 }
 
 .header-nav a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255);
+
 }
 
 .header-nav a:hover,
@@ -468,6 +503,7 @@ input::-moz-focus-inner {
 }
 
 /* Buttons-------------------------------------------------------- */
+
 
 /* ===================================================================
  * # hero

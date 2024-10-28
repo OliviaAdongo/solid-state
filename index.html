@@ -34,7 +34,12 @@
     />
 
 
-
+<!-- --------------SEARCH BOOTSTRAP AND CSS ----------------------------- -->
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ----------> 
+<!-- --------------SEARCH BOOTSTRAP AND CSS ----------------------------- -->
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -70,7 +75,7 @@
 
       <div class="header-logo">
           <a href="index.html">
-              <img src="assets/img/solidroots properties logo c3-1.png" alt="Homepage">
+              <img src="assets/img/solidroots properties logo c3-2.png" alt="Homepage">
           </a>
       </div>
 
@@ -79,10 +84,10 @@
           <nav class="row header-nav-wrap">
               <ul class="header-nav">
                   <li><a class="smoothscroll" href="index.html" title="Intro">Home</a></li>
-                  <li><a class="smoothscroll" href="about.html" title="About">About</a></li>
-                  <li><a class="smoothscroll" href="services.html" title="Services">Services</a></li>
-                  <li><a class="smoothscroll" href="properties.html" title="Works">Works</a></li>
-                  <li><a href="contact.html" title="Contact us">Say Hello</a></li>
+                  <li><a class="smoothscroll" href="about.html" title="About" >About</a></li>
+                  <li><a class="smoothscroll" href="services.html" title="Services" >Services</a></li>
+                  <li><a class="smoothscroll" href="properties.html" title="Works" >Works</a></li>
+                  <li><a href="contact.html" title="Contact us" >Say Hello</a></li>
               </ul>
           </nav> <!-- end header-nav-wrap -->
           <a  href="#!" 
@@ -121,6 +126,9 @@
              
               </h1>
 
+
+           
+	
               
               <ul class="hero-social">
                   <li>
@@ -133,7 +141,43 @@
                       <a href="#0" title="">X</a>
                   </li>
               </ul> <!-- end hero-social -->
-
+<section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Purpose</option>
+                                <option>Buy</option>
+                                <option>Rent</option>
+                                <option>Commercial</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Location</option>
+                                <option>Kisumu</option>
+                                <option>Nairobi</option>
+                                <option>Nyeri</option>
+                                <option>Eldoret</option>
+                                <option>Mombasa</option>
+                                <option>Nakuru</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
           </div> 
 
       </div> <!-- end hero-content -->
