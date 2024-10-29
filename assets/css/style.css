@@ -29,7 +29,7 @@ h2 {
   background-blend-mode: overlay;
   background-size: 100%;
   color: #fff;
-    background: no-repeat center center cover;
+    background: no-repeat;
 }
 .holderCircle {
   width: 500px;
