@@ -17,6 +17,10 @@ h3,
 h2 {
   color: #124824;
 }
+
+.service-list li{
+  font-size: 10px;
+}
 /* Middle section css */
 
 .iq-features {
