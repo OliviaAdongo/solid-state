@@ -1045,7 +1045,7 @@ html.no-csstransitions .hero-content {
 }
 
 #footer-image {
-  background-image: url(/assets/img/solidroots\ properties\ logo\ c3-1.png);
+  background-image: url(/assets/img/solidroots\ properties\ logo\ c3-2.png);
 
   /* make a square container */
   width: 150px;
@@ -1058,7 +1058,7 @@ html.no-csstransitions .hero-content {
   background-position: top center;
 
   /* round the edges to a circle with border radius 1/2 container size */
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 #header-image {
